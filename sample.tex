@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\title{Sample \LaTeX\ Document}
+\author{Author Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This is a simple LaTeX document to show some basic features. For more information, see the \href{https://www.latex-project.org/}{LaTeX project website}.
+
+\section{Mathematics}
+\LaTeX\ is great for typesetting mathematics. For example, the quadratic formula looks like this in \LaTeX:
+\[
+x = \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{{2a}}
+\]
+You can also align equations:
+\begin{align*}
+a & = b + c \\
+x & = y - z
+\end{align*}
+
+\section{Tables}
+Tables can be created as follows:
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Column 1} & \textbf{Column 2} & \textbf{Column 3} \\
+\hline
+Row 1 & Data 1 & Data 2 \\
+Row 2 & Data 3 & Data 4 \\
+\hline
+\end{tabular}
+\caption{Example of a table}
+\label{tab:example_table}
+\end{table}
+
+\section{Figures}
+You can include images like this:
+\begin{figure}[h!]
+\centering
+  \includegraphics[width=0.5\textwidth]{images/sample.jpg}
+\caption{An example image.}
+\label{fig:example_figure}
+\end{figure}
+
+\section{Conclusion}
+Thank you for exploring this sample \LaTeX\ document. Remember, the more you practice, the better you'll get!
+
+\end{document}
+
