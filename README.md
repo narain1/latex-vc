@@ -1,2 +1,2 @@
 # latex-vc
-Template for latex with version control
+Template for having version control of latex files
